@@ -1,7 +1,7 @@
 # THEWALLETBOT manual        
 Cryptocurrency wallet based on instant communicators.        
 ## Notes:        
-* <a href="https://github.com/domator4x4/TheWalletBot/blob/master/README_pl.md">Polska wersja manuala.</a>.        
+* <a href="https://github.com/domator4x4/TheWalletBot/blob/master/README_pl.md">Polska wersja manuala</a>.        
 * If you want to participate in testing just send anything at <strong><a href="https://t.me/@Walletbot_001" target="_blank">@Walletbot_001</a> (Telegram)</strong> or find <strong>+48607895423 at Signal</strong>.        
 * Set up your nickname at Telegram. You will be able to receive payments by giving your @nickname  to your counterparty.        
 * This is just test software. Alpha, beta or however you want to call it. As a tester you will get some TESTNET BITCOINS each few hours. Remember - they are worth ZERO. Other cryptocurrencies are real so be careful what you do.        
