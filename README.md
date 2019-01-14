@@ -1,5 +1,5 @@
-# THEWALLETBOT manual
-Cryptocurrency wallet based on instant communicators.## Notes:
+Cryptocurrency wallet based on instant communicators.
+## Notes:
 * Set up your nickname at Telegram. You will be able to receive payments by giving your @nickname  to your counterparty.
 * drugi element listy
 ## Commands for everybody, for non-users as well:
