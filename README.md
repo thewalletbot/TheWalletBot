@@ -1,8 +1,10 @@
 # THEWALLETBOT manual        
 Cryptocurrency wallet based on instant communicators.        
 ## Notes:        
+* If you want to participate in testing just send anything at <a href="https://t.me/@Walletbot_001">@Walletbot_001</a> (Telegram) or find +48607895423 at Signal.        
 * Set up your nickname at Telegram. You will be able to receive payments by giving your @nickname  to your counterparty.        
 * This is just test software. Alpha, beta or however you want to call it. As a tester you will get some TESTNET BITCOINS each few hours. Remember - they are worth ZERO. Other cryptocurrencies are real so be careful what you do.        
+* The performance of this software can be poor during tests as it is not at a production stage. Wait few seconds after every command until you give up.        
 ## Commands for everybody, for non-users as well:        
 ### <strong>help [command]</strong>        
 Displays a brief help function with a list of basic commands or detailed description of the chosen command.        
@@ -69,7 +71,7 @@ examples: <strong>email | email your_nick@your_domain.com</strong>
 Displays, sets or updates the transaction fee. The more you pay â€“ the faster your transaction is confirmed. <strong>normal</strong> is the default.        
 examples: <strong>fee | fee low</strong>        
         
-### <strong>lang [pl | en]</strong>        
+### <strong>lang [en | pl]</strong>        
 Displays, sets or updates your preferred language. All commands - are always in English. Descriptions and help files are multilingual so you can choose. The command itself, with no language parameter entered, displays the valid language.        
 examples: <strong>lang | lang en<strong>         
         
