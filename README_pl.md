@@ -1,7 +1,8 @@
 # THEWALLETBOT manual        
 Portfel kryptowalutowy oparty na komunikacji przez komunikatory (Signal, Telegram).        
 ## Uwagi:        
-* Jeśli chcesz wziąć udziałw testowaniu portfela wyślij cokolwiek na <strong><a href="https://t.me/@Walletbot_001" target="_blank">@Walletbot_001</a> (Telegram)</strong> lub znajdź <strong>+48607895423 na Signalu</strong>.        
+* <a href="https://github.com/domator4x4/TheWalletBot/blob/master/README.md">English manual.</a>.        
+* Jeśli chcesz wziąć udział w testowaniu portfela wyślij cokolwiek na <strong><a href="https://t.me/@Walletbot_001" target="_blank">@Walletbot_001</a> (Telegram)</strong> lub znajdź <strong>+48607895423 na Signalu</strong>.        
 * Ustaw swój nick na Telegramie (jeśli nie masz). Dzięki temu będziesz mógł otrzymywać kryptowaluty podając innym jedynie swój @nick        
 * To jest testowa wersja softu. Alpha, beta czy jakkolwiek chcesz ją sobie nazwać. Jako tester będziesz co kilka godzin dostawać TESTNETOWE BITCOINY. Pamiętaj - ich wartość wynosi ZERO. Inne kryptowaluty są prawdziwe więc jednak uważaj co robisz.        
 * Szybkość tego portfela podczas testów jest niska co wynika z wydajności sprzętu. Poczekaj chwilę po wpisaniu polecenia zanim się poddasz. Aktualnie Telegram jest znacznie szybszy niż Signal.        
@@ -19,12 +20,12 @@ przykłady: <strong>rates | rates LTC | rates BTC</strong>
 Wyświetla listę kryptowalut aktualnie obsługiwanych  przez portfel <a href="http://thewalletbot.com/">TheWalletBot</a>.        
         
 ### <strong>start [coin]</strong>        
-Tworzy nowy portfel dla wskazanej kryptowaluty. Domyślnie jest to bitcoin(BTC). Twoim pierwszym portfelem musi być  portfel BTC, dopiero gdy go masz – możesz inicjować kolejne kryptowaluty. Dostaniesz nowy adres, który będzie wyświetlony wraz z qr-kodem I linkiem do blockchaina. Nie możesz w ten sposób ponownie zainicjować portfela – jest to operacja jednorazowa. Jeśli chciałbyś zmienić Twój adres – użyj komendy <strong>new address [coin]</strong>.        
+Tworzy nowy portfel dla wskazanej kryptowaluty. Domyślnie jest to bitcoin (BTC). Twoim pierwszym portfelem musi być  portfel BTC, dopiero gdy go masz – możesz inicjować kolejne kryptowaluty. Dostaniesz nowy adres, który będzie wyświetlony wraz z QR-kodem i linkiem do blockchaina. Nie możesz w ten sposób ponownie zainicjować portfela – jest to operacja jednorazowa. Jeśli chciałbyś zmienić Twój adres – użyj komendy <strong>new address [coin]</strong>.        
 przykłady: <strong>start | start LTC | start BTC</strong>        
         
 ## Polecenia tylko dla użytkowników:        
 ### <strong>show [coin]</strong>        
-Wyświetla Twój adres wskazanej kryptowaluty wraz z qr-kodem I linkiem do blockchaina. Kodu qr możesz użyć do otrzymania płatności np. z telefonu. Domyślną kryptowalutą jest BTC.        
+Wyświetla Twój adres wskazanej kryptowaluty wraz z QR-kodem i linkiem do blockchaina. Kodu QR możesz użyć do otrzymania płatności np. z telefonu. Domyślną kryptowalutą jest BTC.        
 przykłady: <strong>show | show LTC | show BTC</strong>        
 ### <strong>balance [coin]</strong>        
 Wyświetla stan konta wskazanej kryptowaluty. Jeśli nie wskażesz żadnej – otrzymasz liste wszystkich kryptowalut dla jakich inicjowałeś adresy.        
@@ -33,19 +34,19 @@ przykłady: <strong>balance | balance LTC | balance BTC</strong>
 Inicjuje wysłanie wskazanej ilości kryptowaluty do adresata. Domyślną kryptowalutą jest BTC. Wartość transakcji musi być mniejsza niż stan Twojego konta. Adresat może być użyty w jednej z następujących wersji:        
 - poprawny adres danej kryptowaluty (na przykład 3D5g41AUezCr6cqZZCUykUKpK4YdA695fB),        
 - nickname z Telegrama (na przykład  @nickname_kolegi) lub        
-- numer telefonu w pełnej wersji z Signala (+446011234567). W przypadku gdy odbiorca istnieje i używa wskazanego komunikatora - nawet jeśli nie używa portlefa TheWalletBot - otrzyma wysłane środki, a jeśli to potrzebne, założymy mu nowy portfel. On sam zostanie o tym poinformowany. Jeśli transakcja przebiegnie poprawnie - otrzymasz do niej link na blockchainie. Pamiętaj o fee - opłacie dla sieci transakcyjnej. Musisz mieć wystarczająco dużo środków na koncie by ją zapłacić. Więc jeśli chcesz przesłać całą wartość swojego adresu - użyj w poleceniu słowa <strong>all</strong>. W takim przypadku wszystkie środki zostaną przesłane a fee będzie odjęte od wysyłanej kwoty. Typowe przyłady polecenia send to:        
+- numer telefonu w pełnej wersji z Signala (+446011234567). W przypadku gdy odbiorca istnieje i używa wskazanego komunikatora - nawet jeśli nie używa portfela TheWalletBot - otrzyma wysłane środki, a jeśli to potrzebne, założymy mu nowy portfel. On sam zostanie o tym poinformowany. Jeśli transakcja przebiegnie poprawnie - otrzymasz do niej link na blockchainie. Pamiętaj o fee - opłacie dla sieci transakcyjnej. Musisz mieć wystarczająco dużo środków na koncie by ją zapłacić. Więc jeśli chcesz przesłać całą wartość swojego adresu - użyj w poleceniu słowa <strong>all</strong>. W takim przypadku wszystkie środki zostaną przesłane a fee będzie odjęte od wysyłanej kwoty. Typowe przykłady polecenia send to:        
 <strong>send 3D5g41AUezCr6cqZZCUykUKpK4YdA695fB 1.2        
 send @NickNameOfFriend 32 LTC        
 send +446011234567 all ETH</strong>        
         
 ### <strong>new address [coin]</strong>        
-Tworzy nowy adres wskazanej kryptowaluty I przelewa na niego wszystkie Twoje środki (po odjęciu fee transakcyjnego). Domyślną kryptowalutą jest BTC. Operacja się nie powiedzie, jeśli na adresie nie masz wystarczającej ilości monet by zapłacić fee. Jeśli stan twojego adresu to 0 – dostaniesz nowy adres bez żadnej transakcji przesyłania monet – czyli nie płacisz fee.        
+Tworzy nowy adres wskazanej kryptowaluty i przelewa na niego wszystkie Twoje środki (po odjęciu fee transakcyjnego). Domyślną kryptowalutą jest BTC. Operacja się nie powiedzie, jeśli na adresie nie masz wystarczającej ilości monet by zapłacić fee. Jeśli stan twojego adresu to 0 – dostaniesz nowy adres bez żadnej transakcji przesyłania monet – czyli nie płacisz fee.        
 przykłady: <strong>new address BTC | new address LTC</strong>        
         
 ### <strong>forward [coin {address | cancel}]</strong>        
 Wyświetla, ustawia lub likwiduje przesyłanie kryptowaluty pod wskazany adres (przekierowanie). Wymagane jest podanie nazwy kryptowaluty – nie ma wartości domyślnej. Adresatem może być tylko poprawny adres kryptowaluty. Poniżej kilka typowych przykładów użycia tego polecenia wraz z opisami:        
 <strong>forward</strong> – wyświetla listę aktualnie ustawionych przekierowań.        
-<strong>forward BTC 3D5g41AUezCr6cqZZCUykUKpK4YdA695fB</strong> – ustawia przekierowanie dla wskazanej kryptowaluty (BTC).Od tej chwili wszystkie wpływy na twoj adres będą przesyłane na wskazany adres. Przesyłanie jest realizowane co 10 minut.        
+<strong>forward BTC 3D5g41AUezCr6cqZZCUykUKpK4YdA695fB</strong> – ustawia przekierowanie dla wskazanej kryptowaluty (BTC). Od tej chwili wszystkie wpływy na twoj adres będą przesyłane na wskazany adres. Przesyłanie jest realizowane co 10 minut.        
 <strong>forward BTC cancel</strong> – kasuje uprzednio ustawione przekierowanie dla wskazanej kryptowaluty (BTC).        
         
 ### <strong>mix [coin]</strong>        
