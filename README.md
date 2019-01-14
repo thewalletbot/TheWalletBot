@@ -5,6 +5,7 @@ Cryptocurrency wallet based on instant communicators.
 * Set up your nickname at Telegram. You will be able to receive payments by giving your @nickname  to your counterparty.        
 * This is just test software. Alpha, beta or however you want to call it. As a tester you will get some TESTNET BITCOINS each few hours. Remember - they are worth ZERO. Other cryptocurrencies are real so be careful what you do.        
 * The performance of this software can be poor during tests as it is not at a production stage. Wait few seconds after every command until you give up.        
+* You can contact us at Telegram: <strong><a href="https://t.me/thewalletbot_help">thewalletbot_help</a></strong> or wallet@thewalletbot.com.        
 ## Commands for everybody, for non-users as well:        
 ### <strong>help [command]</strong>        
 Displays a brief help function with a list of basic commands or detailed description of the chosen command.        
