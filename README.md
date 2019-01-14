@@ -47,6 +47,6 @@ examples: <strong>email | email your_nick@your_domain.com</strong>
 Displays, sets or updates your preferred language. All commands â€“ are always in English. Descriptions and help files are multilingual so you can choose. The command itself, with no language parameter entered, displays the valid language.      
 examples: <strong>lang | lang en<strong>       
       
-### fee [low | normal | high]   
+### fee ddd
 Displays, sets or updates the transaction fee. The more you pay - the faster your transaction is confirmeis the default.     
       
