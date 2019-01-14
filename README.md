@@ -48,6 +48,5 @@ Displays, sets or updates your preferred language. All commands â€“ are alw
 examples: <strong>lang | lang en<strong>       
       
 ### <strong>fee [low | normal | high]</strong>      
-Displays, sets or updates the transaction fee. The more you pay - the faster your transaction is confirmeis the default.      
-examples: <strong>fee | fee low</strong>      
+Displays, sets or updates the transaction fee. The more you pay - the faster your transaction is confirmeis the default.     
       
