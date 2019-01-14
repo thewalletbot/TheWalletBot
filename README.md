@@ -2,8 +2,10 @@
 Cryptocurrency wallet based on instant communicators.      
 ## Notes:      
 * Set up your nickname at Telegram. You will be able to receive payments by giving your @nickname  to your counterparty.      
-* drugi element listy      
+* This is just test software. Alpha, beta or however you want to call it. As a tester you will get some TESTNET BITCOINS each few hours. Remember - they are worth ZERO.      
 ## Commands for everybody, for non-users as well:      
+### displays more detailed help about chosen command.      
+      
 ### <strong>rates [coin]</strong>      
 Displays the current rates for all cryptocurrencies supported by <a href="http://thewalletbot.com/">TheWalletBot</a> or just the rates for a chosen coin.      
 examples: _rates | rates LTC | rates BTC_      
@@ -29,7 +31,8 @@ examples: _new address BTC | new address LTC_
 ### test txt for help about forward command      
       
 ### <strong>mix [coin]</strong>      
-Mixes your coins. No default value. Not all cryptocurrencies can be mixed. Mixing is a process of coin anonymization. You will receive different coins at the new address to replace your existing coins. This will prevent anyone from knowing where you got your coins from and what you do with them. It costs some % + transaction fee. For now, it is possible to mix pl | en      
+Mixes your coins. No default value. Not all cryptocurrencies can be mixed. Mixing is a process of coin anonymization. You will receive different coins at the new address to replace your existing coins. This will prevent anyone from knowing where you got your coins from and what you do with them. It costs some % + transaction fee. For now, it is possible to mix testnet bitcoin (BTC) [fee: 1% + transaction fees]
+litecoin (LTC) [fee: 3% + transaction fees]      
 Remember, your mixed coins will come to your new address.      
 examples: _mix LTC | mix BTC_      
       
