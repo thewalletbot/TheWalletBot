@@ -1,5 +1,5 @@
 # THEWALLETBOT manual        
-Portfel kryptowalutowy oparty na komunikacji przez komunikatory (Signal, Telegram).        
+Portfel kryptowalutowy oparty na komunikacji przez komunikatory (Signal, Telegram).   łóżź     
 ## Uwagi:        
 * JeĹ›li chcesz wziÄ…Ä‡ udziaĹ‚w testowaniu portfela wyĹ›lij cokolwiek na <strong><a href="https://t.me/@Walletbot_001" target="_blank">@Walletbot_001</a> (Telegram)</strong> lub znajdĹş <strong>+48607895423 na Signalu</strong>.        
 * Ustaw swĂłj nick na Telegramie (jeĹ›li nie masz). DziÄ™ki temu bÄ™dziesz mĂłgĹ‚ otrzymywaÄ‡ kryptowaluty podajÄ…c innym jedynie swĂłj @nick        
