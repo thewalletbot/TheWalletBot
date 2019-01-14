@@ -6,7 +6,7 @@ Cryptocurrency wallet based on instant communicators.
 ## Commands for everybody, for non-users as well:      
 ### <strong>rates [coin]</strong>      
 Displays the current rates for all cryptocurrencies supported by <a href="http://thewalletbot.com/">TheWalletBot</a> or just the rates for a chosen coin.      
-examples: _**rates | rates LTC | rates BTC**_      
+examples: _rates | rates LTC | rates BTC_      
       
 ### <strong>coins</strong>      
 Displays coins currently supported by <a href="http://thewalletbot.com/">TheWalletBot</a>.      
