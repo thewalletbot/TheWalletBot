@@ -19,7 +19,6 @@ Cryptocurrency wallet based on instant communicators.
 ### <strong>rates [coin]</strong>
 
 Displays the current rates for all cryptocurrencies supported by <a href="http://thewalletbot.com/">TheWalletBot</a> or just the rates for a chosen coin.
-
 examples: <strong>rates | rates LTC | rates BTC</strong>
 
 
