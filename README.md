@@ -43,6 +43,11 @@ examples: <strong>history | history LTC | history BTC 5</strong>
 Displays, sets or updates your email address for notifications and account recovery. If you lose access to your phone or instant messenger, this will be the only way to contact us, confirm your identity and recover your account. Just send us an email from the registered email address and we will contact you for further verification. The command with no email entered displays the valid email. To change your email, just set a new one.      
 examples: <strong>email | email your_nick@your_domain.com</strong>      
       
+### <strong>fee [low | normal | high]</strong>      
+Displays, sets or updates the transaction fee. The more you pay â€“ the faster your transaction is confirmed. <strong>normal</strong> is the default.      
+examples: <strong>fee | fee low</strong>      
+      
 ### <strong>lang [$1]</strong>      
-Displays, sets or updates your preferred language. All commands â€“ are always in English. Descriptions and help files are multilingual so you can choose. The command itself, with no language parameter entered, displays the valid language.      
+Displays, sets or updates your preferred language. All commands - are always in English. Descriptions and help files are multilingual so you can choose. The command itself, with no language parameter entered, displays the valid language.      
 examples: <strong>lang | lang en<strong>       
+      
