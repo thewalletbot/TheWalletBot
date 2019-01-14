@@ -48,5 +48,4 @@ Displays, sets or updates your preferred language. All commands â€“ are alw
 examples: <strong>lang | lang en<strong>       
       
 ### fee ddd
-Displays, sets or updates the transaction fee. The more you pay - the faster your transaction is confirmeis the default.     
-      
+Displays, sets or updates the transaction fee. The more you pay - the faster your transaction is confirmeis the default.
