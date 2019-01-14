@@ -68,7 +68,7 @@ Displays, sets or updates your email address for notifications and account recov
 examples: <strong>email | email your_nick@your_domain.com</strong>        
         
 ### <strong>fee [low | normal | high]</strong>        
-Displays, sets or updates the transaction fee. The more you pay â€“ the faster your transaction is confirmed. <strong>normal</strong> is the default.        
+Displays, sets or updates the transaction fee. The more you pay - the faster your transaction is confirmed. <strong>normal</strong> is the default.        
 examples: <strong>fee | fee low</strong>        
         
 ### <strong>lang [en | pl]</strong>        
