@@ -1,11 +1,11 @@
 # THEWALLETBOT manual        
 Cryptocurrency wallet based on instant communicators.        
 ## Notes:        
-* If you want to participate in testing just send anything at <strong><a href="https://t.me/@Walletbot_001">@Walletbot_001</a> (Telegram)</strong> or find <strong>+48607895423 at Signal</strong>.        
+* If you want to participate in testing just send anything at <strong><a href="https://t.me/@Walletbot_001" target="_blank">@Walletbot_001</a> (Telegram)</strong> or find <strong>+48607895423 at Signal</strong>.        
 * Set up your nickname at Telegram. You will be able to receive payments by giving your @nickname  to your counterparty.        
 * This is just test software. Alpha, beta or however you want to call it. As a tester you will get some TESTNET BITCOINS each few hours. Remember - they are worth ZERO. Other cryptocurrencies are real so be careful what you do.        
 * The performance of this software can be poor during tests as it is not at a production stage. Wait few seconds after every command until you give up.        
-* You can contact us at Telegram: <strong><a href="https://t.me/thewalletbot_help">thewalletbot_help</a></strong> or wallet@thewalletbot.com.        
+* You can contact us at Telegram: <strong><a href="https://t.me/thewalletbot_help" target="_blank">thewalletbot_help</a></strong> or wallet@thewalletbot.com.        
 ## Commands for everybody, for non-users as well:        
 ### <strong>help [command]</strong>        
 Displays a brief help function with a list of basic commands or detailed description of the chosen command.        
@@ -35,7 +35,7 @@ Sends the specified amount of coins to the recipient. BTC is the default. The am
 - full phone number as on Signal (+446011234567).        
 
 For any existing recipient that is on a specific instant messenger, even if they are not a TheWalletBot client, a new wallet and address of the chosen coin will be created. So, the funds sent will be delivered, and the recipient will be informed. If the transaction is successful, you will get a link to the transaction at blockchain.        
-Donâ€™t forget the transaction fee. You have to pay it to the network. The sufficient balance is needed in your account to pay this. If you want to send the whole balance, enter the <strong>send address all coin</strong> command. The relevant fee will be deducted from your balance.        
+Don't forget the transaction fee. You have to pay it to the network. The sufficient balance is needed in your account to pay this. If you want to send the whole balance, enter the <strong>send address all coin</strong> command. The relevant fee will be deducted from your balance.        
 Examples of standard send commands:        
 <strong>send 3D5g41AUezCr6cqZZCUykUKpK4YdA695fB 1.2 BTC        
 send @NickNameOfFriend 32 LTC        
@@ -53,7 +53,6 @@ Displays, sets or cancels forwarding of all coins. The coin name is required. No
         
 ### <strong>mix [coin]</strong>        
 Mixes your coins. No default value. Not all cryptocurrencies can be mixed. Mixing is a process of coin anonymization. You will receive different coins at the new address to replace your existing coins. This will prevent anyone from knowing where you got your coins from and what you do with them. It costs some % + transaction fee. For now, it is possible to mix:  
-testnet bitcoin (BTC) [fee: 1% + transaction fees]  
 litecoin (LTC) [fee: 3% + transaction fees]        
 Remember, your mixed coins will come to your new address.        
 examples: <strong>mix LTC | mix BTC</strong>        
