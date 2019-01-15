@@ -2,7 +2,7 @@
 Portfel kryptowalutowy oparty na komunikacji przez komunikatory (Signal, Telegram).        
 ## Uwagi:        
 * <a href="https://github.com/domator4x4/TheWalletBot/blob/master/README.md">English manual.</a>        
-* Jeśli chcesz wziąć udział w testowaniu portfela wyślij cokolwiek na <strong><a href="https://t.me/@Walletbot_001" target="_blank">@Walletbot_001</a> (Telegram)</strong> lub znajdź <strong>+48607895423 na Signalu</strong>.        
+* Jeśli chcesz wziąć udział w testowaniu portfela wyślij cokolwiek na <strong><a href="https://t.me/@Walletbot_001" target="_blank">@Walletbot_001</a> (Telegram)</strong> lub znajdź <strong>+48730172353 na Signalu</strong>.        
 * Ustaw swój nick na Telegramie (jeśli nie masz). Dzięki temu będziesz mógł otrzymywać kryptowaluty podając innym jedynie swój @nick        
 * To jest testowa wersja softu. Alpha, beta czy jakkolwiek chcesz ją sobie nazwać. Jako tester będziesz co kilka godzin dostawać TESTNETOWE BITCOINY. Pamiętaj - ich wartość wynosi ZERO. Inne kryptowaluty są prawdziwe więc jednak uważaj co robisz.        
 * Szybkość tego portfela podczas testów jest niska co wynika z wydajności sprzętu. Poczekaj chwilę po wpisaniu polecenia zanim się poddasz. Aktualnie Telegram jest znacznie szybszy niż Signal.        
@@ -72,6 +72,6 @@ Wyświetla lub ustawia wysokość opłaty transakcyjnej (fee) dla sieci kryptowa
 przykłady: <strong>fee | fee low</strong>        
         
 ### <strong>lang [en | pl]</strong>        
-Wyświetla lub ustawia Twój preferowany język. Wszystkie polecenia zostają bez zmian – po angielsku – jednak opisy czy pomoc dostępna jest również w innych językach. Polecenie bez parametru wyświeta ustawiony przez Ciebie język.        
+Wyświetla lub ustawia Twój preferowany język. Wszystkie polecenia zostają bez zmian – po angielsku – jednak opisy czy pomoc dostępna jest również w innych językach. Polecenie bez parametru wyświetla ustawiony przez Ciebie język.        
 przykłady: <strong>lang | lang en</strong>         
         
