@@ -35,6 +35,7 @@ Inicjuje wysłanie wskazanej ilości kryptowaluty do adresata. Domyślną krypto
 - poprawny adres danej kryptowaluty (na przykład 3D5g41AUezCr6cqZZCUykUKpK4YdA695fB),        
 - nickname z Telegrama (na przykład  @nickname_kolegi) lub        
 - numer telefonu w pełnej wersji z Signala (+446011234567). 
+
 W przypadku gdy odbiorca istnieje i używa wskazanego komunikatora - nawet jeśli nie używa portfela TheWalletBot - otrzyma wysłane środki, a jeśli to potrzebne, założymy mu nowy portfel. On sam zostanie o tym poinformowany. Jeśli transakcja przebiegnie poprawnie - otrzymasz do niej link na blockchainie. Pamiętaj o fee - opłacie dla sieci transakcyjnej. Musisz mieć wystarczająco dużo środków na koncie by ją zapłacić. Więc jeśli chcesz przesłać całą wartość swojego adresu - użyj w poleceniu słowa <strong>all</strong>. W takim przypadku wszystkie środki zostaną przesłane a fee będzie odjęte od wysyłanej kwoty. Typowe przykłady polecenia send to:        
 <strong>send 3D5g41AUezCr6cqZZCUykUKpK4YdA695fB 1.2        
 send @NickNameOfFriend 32 LTC        
