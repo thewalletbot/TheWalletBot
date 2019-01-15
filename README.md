@@ -49,9 +49,9 @@ examples: <strong>new address BTC | new address LTC</strong>
         
 ### <strong>forward [coin {address | cancel}]</strong>        
 Displays, sets or cancels forwarding of all coins. The coin name is required. No default value. Only a valid coin address can be used here. Examples of standard use of this command:        
-- <strong>forward</strong> - displays all your existing forwards.        
-- <strong>forward BTC 3D5g41AUezCr6cqZZCUykUKpK4YdA695fB</strong> - sets a new forward for the chosen coin (BTC). From that moment all funds incoming to your address for this coin will be sent (every 10 minutes) to the specified address.        
-- <strong>forward BTC cancel</strong> - cancels any previously set forward.        
+<strong>forward</strong> - displays all your existing forwards.        
+<strong>forward BTC 3D5g41AUezCr6cqZZCUykUKpK4YdA695fB</strong> - sets a new forward for the chosen coin (BTC). From that moment all funds incoming to your address for this coin will be sent (every 10 minutes) to the specified address.        
+<strong>forward BTC cancel</strong> - cancels any previously set forward.        
         
 ### <strong>mix [coin]</strong>        
 Mixes your coins. No default value. Not all cryptocurrencies can be mixed. Mixing is a process of coin anonymization. You will receive different coins at the new address to replace your existing coins. This will prevent anyone from knowing where you got your coins from and what you do with them. It costs some % + transaction fee. For now, it is possible to mix:  
