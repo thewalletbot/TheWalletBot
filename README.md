@@ -32,9 +32,9 @@ Displays the balance for the chosen coin. If a coin name is omitted, balances fo
 examples: <strong>balance | balance LTC | balance BTC</strong>        
 ### <strong>send address amount coin</strong>        
 Sends the specified amount of coins to the recipient. BTC is the default. The amount must be less than your balance. The recipient can be stated as a:        
-â€˘ valid address for the chosen coin (i.e. 3D5g41AUezCr6cqZZCUykUKpK4YdA695fB),        
-â€˘ Telegram nickname (i.e. @NickNameOfFriend), or        
-â€˘ full phone number as on Signal (+446011234567).        
+valid address for the chosen coin (i.e. 3D5g41AUezCr6cqZZCUykUKpK4YdA695fB),        
+Telegram nickname (i.e. @NickNameOfFriend), or        
+full phone number as on Signal (+446011234567).        
 
 For any existing recipient that is on a specific instant messenger, even if they are not a TheWalletBot client, a new wallet and address of the chosen coin will be created. So, the funds sent will be delivered, and the recipient will be informed. If the transaction is successful, you will get a link to the transaction at blockchain.        
 Do not forget the transaction fee. You have to pay it to the network. The sufficient balance is needed in your account to pay this. If you want to send the whole balance, enter the <strong>send address all coin</strong> command. The relevant fee will be deducted from your balance.        
@@ -49,9 +49,9 @@ examples: <strong>new address BTC | new address LTC</strong>
         
 ### <strong>forward [coin {address | cancel}]</strong>        
 Displays, sets or cancels forwarding of all coins. The coin name is required. No default value. Only a valid coin address can be used here. Examples of standard use of this command:        
-â€˘ <strong>forward</strong> - displays all your existing forwards.        
-â€˘ <strong>forward BTC 3D5g41AUezCr6cqZZCUykUKpK4YdA695fB</strong> - sets a new forward for the chosen coin (BTC). From that moment all funds incoming to your address for this coin will be sent (every 10 minutes) to the specified address.        
-â€˘ <strong>forward BTC cancel</strong> - cancels any previously set forward.        
+<strong>forward</strong> - displays all your existing forwards.        
+<strong>forward BTC 3D5g41AUezCr6cqZZCUykUKpK4YdA695fB</strong> - sets a new forward for the chosen coin (BTC). From that moment all funds incoming to your address for this coin will be sent (every 10 minutes) to the specified address.        
+<strong>forward BTC cancel</strong> - cancels any previously set forward.        
         
 ### <strong>mix [coin]</strong>        
 Mixes your coins. No default value. Not all cryptocurrencies can be mixed. Mixing is a process of coin anonymization. You will receive different coins at the new address to replace your existing coins. This will prevent anyone from knowing where you got your coins from and what you do with them. It costs some % + transaction fee. For now, it is possible to mix:  
