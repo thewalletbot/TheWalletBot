@@ -2,7 +2,7 @@
 Cryptocurrency wallet based on instant messengers (Signal, Telegram).        
 ## Notes:        
 * <a href="https://github.com/domator4x4/TheWalletBot/blob/master/README_pl.md">Polska wersja manuala.</a>        
-* If you want to participate in testing, just send anything at <strong><a href="https://t.me/@Walletbot_001" target="_blank">@Walletbot_001</a> (Telegram)</strong> or find <strong>+48730172353 at Signal</strong>.        
+* If you want to participate in testing, just send anything at <strong><a href="https://t.me/@Walletbot_001" target="_blank">@Walletbot_001</a> (Telegram)</strong> or find <strong>+48607895423 at Signal</strong>.        
 * Set up your nickname at Telegram. You will be able to receive payments by giving your @nickname  to your counterparty.        
 * This is just a test software. Alpha, beta or whatever you want to call it. As a tester, you will get some TESTNET BITCOINS every few hours. Remember, they are worth ZERO. Other cryptocurrencies are real so be careful what you do.        
 * The performance of this software can be poor during tests as it is not at a production stage. Wait a few seconds after every command before you give up. For now, Telegram is much faster than Signal.        
