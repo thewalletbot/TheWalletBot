@@ -1,11 +1,11 @@
 # THEWALLETBOT manual        
-Portfel kryptowalutowy oparty na komunikacji przez komunikatory (Signal, Telegram).        
+Portfel kryptowalutowy oparty na komunikacji przez komunikatory (Signal, Telegram, WhatsApp).        
 ## Uwagi:        
 * <a href="https://github.com/domator4x4/TheWalletBot/blob/master/README.md">English manual.</a>        
 * Jeśli chcesz wziąć udział w testowaniu portfela wyślij cokolwiek na <strong><a href="https://t.me/@Walletbot_001" target="_blank">@Walletbot_001</a> (Telegram)</strong> lub znajdź <strong>+48607895423 na Signalu</strong>.        
 * Ustaw swój nick na Telegramie (jeśli nie masz). Dzięki temu będziesz mógł otrzymywać kryptowaluty podając innym jedynie swój @nick        
-* To jest testowa wersja softu. Alpha, beta czy jakkolwiek chcesz ją sobie nazwać. Jako tester będziesz co kilka godzin dostawać TESTNETOWE BITCOINY. Pamiętaj - ich wartość wynosi ZERO. Inne kryptowaluty są prawdziwe więc jednak uważaj co robisz.        
-* Szybkość tego portfela podczas testów jest niska co wynika z wydajności sprzętu. Poczekaj chwilę po wpisaniu polecenia zanim się poddasz. Aktualnie Telegram jest znacznie szybszy niż Signal.        
+* To jest testowa wersja softu. Alpha, beta czy jakkolwiek chcesz ją sobie nazwać.        
+* Szybkość tego portfela podczas testów jest niska co wynika z wydajności sprzętu. Poczekaj chwilę po wpisaniu polecenia zanim się poddasz.        
 * Możesz się z nami kontaktować na Telegramie: <strong><a href="https://t.me/thewalletbot_help" target="_blank">thewalletbot_help</a></strong> lub mailem wallet@thewalletbot.com.        
 * Usługa jest darmowa. Jedyne płatne elementy to standardowe opłaty dla sieci transakcyjnej (fee) i ewentualnie opłata za mieszanie monet.        
 ## Polecenia dla wszystkich, nie tylko dla użytkowników:        
@@ -53,7 +53,7 @@ Wyświetla, ustawia lub likwiduje przesyłanie kryptowaluty pod wskazany adres (
         
 ### <strong>mix [coin]</strong>        
 Miesza Twoje monety. Nie ma domyślnej kryptowaluty. Nie każda kryptowaluta może być poddana procesowi mieszania. Mieszanie to proces anonimizacji źródła monet. W zamian za swoje monety dostaniesz inne, na nowy adres. Dzieki temu nikt nie będzie wiedział skąd masz swoje środki i co z nimi robisz. Proces mieszania jest płatny – w zależności od kryptowaluty kosztuje określony procent + fee transakcyjne. W tej chwili możliwe jest mieszanie następujących kryptowalut:   
-litecoin (LTC) [opłata: 3% + opłaty transakcyjne (fee)]        
+        
 Pamiętaj, że po operacji miksowania otrzymasz środki na Twoim nowym adresie.        
 przykłady: <strong>mix LTC | mix BTC</strong>        
         
