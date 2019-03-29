@@ -1,11 +1,11 @@
 # THEWALLETBOT manual        
-Cryptocurrency wallet based on instant messengers (Signal, Telegram).        
+Cryptocurrency wallet based on instant messengers (Signal, Telegram, WhatsApp).        
 ## Notes:        
 * <a href="https://github.com/domator4x4/TheWalletBot/blob/master/README_pl.md">Polska wersja manuala.</a>        
 * If you want to participate in testing, just send anything at <strong><a href="https://t.me/@Walletbot_001" target="_blank">@Walletbot_001</a> (Telegram)</strong> or find <strong>+48607895423 at Signal</strong>.        
 * Set up your nickname at Telegram. You will be able to receive payments by giving your @nickname  to your counterparty.        
-* This is just a test software. Alpha, beta or whatever you want to call it. As a tester, you will get some TESTNET BITCOINS every few hours. Remember, they are worth ZERO. Other cryptocurrencies are real so be careful what you do.        
-* The performance of this software can be poor during tests as it is not at a production stage. Wait a few seconds after every command before you give up. For now, Telegram is much faster than Signal.        
+* This is just a test software. Alpha, beta or whatever you want to call it.        
+* The performance of this software can be poor during tests as it is not at a production stage. Wait a few seconds after every command before you give up.        
 * You can contact us at Telegram: <strong><a href="https://t.me/thewalletbot_help" target="_blank">thewalletbot_help</a></strong> or wallet@thewalletbot.com.        
 * Service is free. You have to pay only normal transaction fees for network and some % if you want to mix coins.        
 ## Commands for everybody, for non-users as well:        
@@ -55,7 +55,7 @@ Displays, sets or cancels forwarding of all coins. The coin name is required. No
         
 ### <strong>mix [coin]</strong>        
 Mixes your coins. No default value. Not all cryptocurrencies can be mixed. Mixing is a process of coin anonymization. You will receive different coins at the new address to replace your existing coins. This will prevent anyone from knowing where you got your coins from and what you do with them. It costs some % + transaction fee. For now, it is possible to mix:  
-litecoin (LTC) [fee: 3% + transaction fees]        
+        
 Remember, your mixed coins will come to your new address.        
 examples: <strong>mix LTC | mix BTC</strong>        
         
