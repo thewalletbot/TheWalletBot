@@ -1,7 +1,7 @@
 # THEWALLETBOT manual        
 Portfel kryptowalutowy oparty na komunikacji przez komunikatory (Signal, Telegram, WhatsApp).        
 ## Uwagi:        
-* <a href="https://github.com/domator4x4/TheWalletBot/blob/master/README.md">English manual.</a>        
+* <a href="https://github.com/thewalletbot/TheWalletBot/blob/master/README.md">English manual.</a>        
 * Jeśli chcesz wziąć udział w testowaniu portfela wyślij cokolwiek na <strong><a href="https://t.me/@Walletbot_001" target="_blank">@Walletbot_001</a> (Telegram)</strong> lub znajdź <strong>+48607895423 na Signalu</strong>.        
 * Ustaw swój nick na Telegramie (jeśli nie masz). Dzięki temu będziesz mógł otrzymywać kryptowaluty podając innym jedynie swój @nick        
 * To jest testowa wersja softu. Alpha, beta czy jakkolwiek chcesz ją sobie nazwać.        
